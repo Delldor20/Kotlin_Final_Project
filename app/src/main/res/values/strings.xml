@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">Kotlin_Final_Project</string>
+    <string-array name="wordsList">
+        <item>Wine</item>
+        <item>Easy</item>
+        <item>Race</item>
+        <item>Room</item>
+        <item>Cash</item>
+
+        <item>Guest</item>
+        <item>Front</item>
+        <item>Sport</item>
+        <item>Sword</item>
+        <item>Straw</item>
+
+        <item>Carpet</item>
+        <item>Borrow</item>
+        <item>Seller</item>
+        <item>Dragon</item>
+        <item>Method</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
