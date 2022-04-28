@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Jasaiah/Documents/GitHub/Kotlin_Final_Project/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/Jasaiah/Documents/GitHub/Kotlin_Final_Project/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/Jasaiah/Documents/GitHub/Kotlin_Final_Project/app/src/main/res/layout/fragment_five_letter_word.xml" value="0.365625" />
-        <entry key="..\:/Users/Jasaiah/Documents/GitHub/Kotlin_Final_Project/app/src/main/res/layout/fragment_four_letter_word.xml" value="0.3796875" />
+        <entry key="..\:/Users/Jasaiah/Documents/GitHub/Kotlin_Final_Project/app/src/main/res/layout/fragment_four_letter_word.xml" value="0.25" />
+        <entry key="..\:/Users/Jasaiah/Documents/GitHub/Kotlin_Final_Project/app/src/main/res/layout/fragment_game.xml" value="0.5" />
+        <entry key="..\:/Users/Jasaiah/Documents/GitHub/Kotlin_Final_Project/app/src/main/res/layout/fragment_menu.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/Jasaiah/Documents/GitHub/Kotlin_Final_Project/app/src/main/res/layout/fragment_result.xml" value="0.5" />
         <entry key="..\:/Users/Jasaiah/Documents/GitHub/Kotlin_Final_Project/app/src/main/res/layout/fragment_six_letter_word.xml" value="0.365625" />
       </map>
     </option>
