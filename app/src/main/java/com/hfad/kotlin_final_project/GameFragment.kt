@@ -42,7 +42,7 @@ class GameFragment : Fragment() {
     fun updateDisplay()
     {
         binding.word.text = viewModel.wordDisplay
-        binding.lives.text = "You have ${viewModel.lives} lives left."
-        binding.incorrectGuesses.text = "Incorrect guesses: ${viewModel.incorrectGuesses}"
+        binding.lives.text = "Lives Remaining: \n ${viewModel.lives}"
+        binding.incorrectGuesses.text = "Incorrect guesses: \n ${viewModel.incorrectGuesses}"
     }
 }

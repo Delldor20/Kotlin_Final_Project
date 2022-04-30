@@ -24,8 +24,6 @@ class Result : Fragment() {
 
         binding.wonLost.text = ResultArgs.fromBundle(requireArguments()).result
 
-        binding.livesText.text = "Lives Remaining: " + livesLeft.toString()
-
         val bestAdapter = activity?.let { ArrayAdapter.createFromResource(it.baseContext, R.array.bestReward, android.R.layout.simple_spinner_item) }
         val midAdapter = activity?.let { ArrayAdapter.createFromResource(it.baseContext, R.array.midReward, android.R.layout.simple_spinner_item) }
         val lowAdapter = activity?.let { ArrayAdapter.createFromResource(it.baseContext, R.array.lowReward, android.R.layout.simple_spinner_item) }

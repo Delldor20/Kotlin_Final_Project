@@ -8,20 +8,26 @@
         tools:context=".Menu">
 
     <TextView
+            android:textSize="25dp"
+            android:background="#AA0000"
+            android:textColor="@color/white"
             android:gravity="center"
-            android:layout_width="199dp"
-            android:layout_height="244dp"
-            android:text="Description" android:id="@+id/textView"
+            android:textAlignment="center"
+            android:layout_width="392dp"
+            android:layout_height="327dp"
+            android:text="Description"
+            android:id="@+id/descriptionText"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.186"/>
+            app:layout_constraintVertical_bias="0.0" app:layout_constraintHorizontal_bias="0.473"/>
     <Button
+            android:backgroundTint="#AA0000"
             android:text="PLAY"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/button"
+            android:layout_width="121dp"
+            android:layout_height="59dp" android:id="@+id/button"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintHorizontal_bias="0.498" app:layout_constraintVertical_bias="0.616"/>
+            app:layout_constraintVertical_bias="0.638"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

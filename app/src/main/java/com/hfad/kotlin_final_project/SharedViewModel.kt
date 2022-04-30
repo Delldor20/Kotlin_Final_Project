@@ -32,9 +32,9 @@ class SharedViewModel(application: Application) : AndroidViewModel(application) 
     {
         var message = ""
         if(isWon()) {
-            message = "You won!"
+            message = "You won with $lives Lives Remaining!"
         } else if (isLost()) {
-            message = "You lost!"
+            message = "You lost with $lives Lives Remaining! \n"
             message += " The word was $word"
         }
         return message
@@ -58,7 +58,7 @@ class SharedViewModel(application: Application) : AndroidViewModel(application) 
         if(word.contains(guess)) {
             correctGuesses += guess
             wordDisplay = deriveWordDisplay()
-        } else {
+        } else if(!incorrectGuesses.contains(guess)){
             incorrectGuesses += "$guess"
             lives--
         }

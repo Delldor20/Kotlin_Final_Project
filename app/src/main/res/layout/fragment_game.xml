@@ -8,54 +8,66 @@
         tools:context=".GameFragment">
 
     <TextView
+            android:background="#AA0000"
+            android:textColor="@color/white"
             android:gravity="center"
             android:id="@+id/word"
-            android:layout_width="309dp"
-            android:layout_height="119dp"
+            android:layout_width="410dp"
+            android:layout_height="115dp"
             android:layout_gravity="center"
             android:textSize="36sp"
             android:letterSpacing="0.1" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.008"/>
+            app:layout_constraintVertical_bias="0.0" app:layout_constraintHorizontal_bias="0.0"/>
     <TextView
+            android:background="#AA0000"
+            android:textColor="@color/white"
+            android:text="Lives Remaining: "
             android:gravity="center"
             android:id="@+id/lives"
-            android:layout_width="304dp"
+            android:layout_width="205dp"
+            android:layout_height="55dp"
+            android:textSize="15sp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.224" app:layout_constraintHorizontal_bias="0.995"/>
+    <TextView
+            android:textColor="@color/white"
+            android:background="#AA0000"
+            android:text="Incorrect Guesses:  "
+            android:gravity="center"
+            android:id="@+id/incorrect_guesses"
+            android:layout_width="205dp"
             android:layout_height="55dp"
             android:textSize="16sp" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.414" app:layout_constraintHorizontal_bias="0.495"/>
-    <TextView
-            android:gravity="center"
-            android:id="@+id/incorrect_guesses"
-            android:layout_width="239dp"
-            android:layout_height="83dp"
-            android:textSize="16sp" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.542" app:layout_constraintHorizontal_bias="0.495"/>
+            app:layout_constraintVertical_bias="0.224" app:layout_constraintHorizontal_bias="0.0"/>
     <EditText
+            android:textColor="@color/white"
+            android:background="#AA0000"
+            android:gravity="center"
             android:id="@+id/guess"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="410dp"
+            android:layout_height="88dp"
             android:textSize="16sp"
-            android:hint="Guess a letter"
+            android:hint="Type A Letter"
             android:inputType="text"
             android:maxLength="1" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintVertical_bias="0.325" tools:ignore="TouchTargetSizeCheck"/>
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.37" tools:ignore="TouchTargetSizeCheck"/>
     <Button
+            android:backgroundTint="#AA0000"
             android:id="@+id/guess_button"
-            android:layout_width="191dp"
-            android:layout_height="84dp"
+            android:layout_width="155dp"
+            android:layout_height="59dp"
             android:layout_gravity="center"
-            android:text="Guess!" app:layout_constraintStart_toStartOf="parent"
+            android:text="Guess" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.196"/>
+            app:layout_constraintVertical_bias="0.522"/>
     <androidx.constraintlayout.widget.Guideline
             android:orientation="horizontal"
             android:layout_width="wrap_content"
